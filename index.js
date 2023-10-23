@@ -3,7 +3,7 @@ const app = express(); //iniciando o express
 
 //criando a rota inicial
 app.get("/", function(req,res){
-    res.send("<h1>Seja Bem vindo ao Mundo F1!</h1></h1><img src='/F1.jpg' alt='Imagem F1'>");
+    res.send("<h1>Seja Bem vindo ao Mundo F1!</h1></h1><img src='https://cdn-8.motorsport.com/images/amp/YEQaPMKY/s1000/max-verstappen-red-bull-racing.jpg' alt='Imagem F1'>");
 })
 
 //Lista de pilotos
